@@ -1,0 +1,38 @@
+:root {
+  --very-dark-desaturated-blue-main: hsl(222, 26%, 31%);
+  --very-dark-desaturated-blue-toggle: hsl(223, 31%, 20%);
+  --very-dark-desaturated-blue-screen: hsl(224, 36%, 15%);
+
+  --color-Desaturated-dark-blue: hsl(225, 21%, 49%); //(key background)
+  --color-Desaturated-dark-blue: hsl(224, 28%, 35%); //(key shadow)
+
+  --color-Red: hsl(6, 63%, 50%); //(key background, toggle)
+  --color-Dark-red: hsl(6, 70%, 34%); //(key shadow)
+
+  --color-Light-grayish-orange: hsl(30, 25%, 89%); // (key background)
+  --color-Grayish-orange: hsl(28, 16%, 65%); // (key shadow)
+
+  --color-Very-dark-grayish-blue: hsl(221, 14%, 31%);
+  --color-White: hsl(0, 0, 100%);
+
+  /* 
+    (main background): 
+    (toggle background,
+    (screen background)
+*/
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(222, 26%, 31%);
+}

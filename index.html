@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="sass/main.css" />
+
+    <title>Calculator app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style></style>
+  </head>
+  <body>
+    <main class="container">
+      <div class="header">
+        <h1>calc</h1>
+        <div class="theme">
+          <div class="theme__text">theme</div>
+          <div class="theme__options">
+            <div class="theme__numbers">
+              <div class="theme__1">1</div>
+              <div class="theme__2">2</div>
+              <div class="theme__3">3</div>
+            </div>
+            <label class="swtich">
+              <input type="checkbox" />
+              <div class="switch-btn"></div>
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="result"></div>
+      <div class="keys">
+        <button class="key keys__num keys__7">7</button>
+        <button class="key keys__num keys__8">8</button>
+        <button class="key keys__num keys__9">9</button>
+        <button class="key keys__del">del</button>
+        <button class="key keys__num keys__4">4</button>
+        <button class="key keys__num keys__5">5</button>
+        <button class="key keys__num keys__6">6</button>
+        <button class="key keys__plus">+</button>
+        <button class="key keys__num keys__1">1</button>
+        <button class="key keys__num keys__2">2</button>
+        <button class="key keys__num keys__3">3</button>
+        <button class="key keys__minus">-</button>
+        <button class="key keys__point">.</button>
+        <button class="key keys__num keys__0">0</button>
+        <button class="key keys__divide">/</button>
+        <button class="key keys__multiply">x</button>
+        <button class="key keys__reset">reset</button>
+        <button class="key keys__result">=</button>
+      </div>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </div>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

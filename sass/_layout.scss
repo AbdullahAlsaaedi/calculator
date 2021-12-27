@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+}
+
+.container {
+  // <main>
+  display: grid;
+  grid-template-rows: auto 6rem;
+  row-gap: 1.5rem;
+  flex: 0 0 30rem;
+}
+.header {
+  //   background-color: purple;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+  font-size: 1rem;
+  color: #fff;
+}
+.result {
+  background-color: var(--very-dark-desaturated-blue-screen);
+  font-size: 3rem;
+  padding: 1.3rem;
+  color: #fff;
+  text-align: end;
+  border-radius: 5px;
+}
+.keys {
+  background-color: var(--very-dark-desaturated-blue-toggle);
+  border-radius: 5px;
+  padding: 2rem;
+  display: grid;
+  gap: 1.4rem;
+  grid-template-columns: repeat(4, 1fr);
+}
