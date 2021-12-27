@@ -12,6 +12,8 @@ const themebtnsEl = document.querySelectorAll(".switch__btn");
 const activebtnel = document.querySelector(".switch__active");
 
 let number = "";
+document.querySelector(".header").style.color = "var(--color-key-text-1)";
+document.querySelector(".result").style.color = "var(--color-key-text-1)";
 
 for (let i = 0; i < numKeysArr.length; i++) {
   numKeysArr[i].addEventListener("click", function () {
