@@ -32,7 +32,7 @@ in the future i would make the website theme dynamic, changed based on the user 
 
 ### Useful resources
 
-- [resource 1](https://www.youtube.com/watch?v=9LZGB3OLXNQ) - this helped to make to change the website theme
+- [resource 1](https://www.youtube.com/watch?v=9LZGB3OLXNQ) - this helped to change the website theme
 - [resource 2](https://www.youtube.com/watch?v=5K7JefKDa4s) - this helped me making a switch button
 
 ## Author
