@@ -9,8 +9,8 @@ its about a simple basic calculator, that has different themes, and made by HTML
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/maybeAbdullah/calculator)
+- Live Site URL: (https://calculator-abdullah.netlify.app)
 
 ### Built with
 
@@ -32,7 +32,7 @@ in the future i would make the website theme dynamic, changed based on the user 
 
 ### Useful resources
 
-- [resource 1](https://www.youtube.com/watch?v=9LZGB3OLXNQ) - this helped to make to change the website theme
+- [resource 1](https://www.youtube.com/watch?v=9LZGB3OLXNQ) - this helped to change the website theme
 - [resource 2](https://www.youtube.com/watch?v=5K7JefKDa4s) - this helped me making a switch button
 
 ## Author
