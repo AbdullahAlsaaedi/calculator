@@ -9,8 +9,8 @@ its about a simple basic calculator, that has different themes, and made by HTML
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/maybeAbdullah/calculator)
-- Live Site URL: [Add live site URL here](https://calculator-abdullah.netlify.app)
+- Solution URL: (https://github.com/maybeAbdullah/calculator)
+- Live Site URL: (https://calculator-abdullah.netlify.app)
 
 ### Built with
 
