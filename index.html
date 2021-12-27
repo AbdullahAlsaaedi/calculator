@@ -26,21 +26,28 @@
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style></style>
   </head>
-  <body>
+  <body class="theme1">
     <main class="container">
       <div class="header">
         <h1>calc</h1>
         <div class="theme">
           <div class="theme__text">theme</div>
-          <div class="theme__options">
-            <div class="theme__numbers">
-              <div class="theme__1">1</div>
-              <div class="theme__2">2</div>
-              <div class="theme__3">3</div>
-            </div>
-            <label class="swtich">
-              <input type="checkbox" />
-              <div class="switch-btn"></div>
+
+          <div class="btns">
+            <label for="radio1" class="switch switch1">
+              <div>1</div>
+              <input type="radio" class="switch__input" id="radio1" />
+              <div class="switch__btn switch__active"></div>
+            </label>
+            <label for="radio2" class="switch switch2">
+              <div>2</div>
+              <input type="radio" class="switch__input" id="radio2" />
+              <div class="switch__btn"></div>
+            </label>
+            <label for="radio3" class="switch switch3">
+              <div>3</div>
+              <input type="radio" class="switch__input" id="radio3" />
+              <div class="switch__btn"></div>
             </label>
           </div>
         </div>
@@ -65,12 +72,6 @@
         <button class="key keys__multiply">x</button>
         <button class="key keys__reset">reset</button>
         <button class="key keys__result">=</button>
-      </div>
-      <div class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
       </div>
     </main>
 

@@ -4,37 +4,38 @@ body {
   align-items: center;
 
   height: 100vh;
+  margin: 0 5rem;
 }
 
 .container {
-  // <main>
   display: grid;
-  grid-template-rows: auto 6rem;
+  grid-template-rows: 6rem 6rem;
+
   row-gap: 1.5rem;
-  flex: 0 0 30rem;
+  flex: 0 1 30rem;
 }
 .header {
-  //   background-color: purple;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 0;
+  padding: 1rem;
   font-size: 1rem;
-  color: #fff;
+  color: var(--color-key-text-2);
 }
 .result {
-  background-color: var(--very-dark-desaturated-blue-screen);
+  background-color: var(--color-screen);
   font-size: 3rem;
   padding: 1.3rem;
-  color: #fff;
+  color: var(--color-key-text-2);
   text-align: end;
   border-radius: 5px;
 }
 .keys {
-  background-color: var(--very-dark-desaturated-blue-toggle);
+  background-color: var(--color-toggle);
   border-radius: 5px;
   padding: 2rem;
   display: grid;
   gap: 1.4rem;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, minmax(4rem, 1fr));
+  box-shadow: 10px 19px 17px -4px rgba(0, 0, 0, 0.2);
 }
